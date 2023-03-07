@@ -12,6 +12,12 @@ if tipp == erme :
 else:
     print("Ez nem talált.")
 #3f
+szam=int(input("írj be egy számot: "))
+Lszam=[]
+while szam!="":
+    Lszam.append(szam)
+    print("Számok összege: ",sum(Lszam))
+    szam=int(input("írj be egy számot: "))
 
 #4f
 
