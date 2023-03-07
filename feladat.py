@@ -1,3 +1,4 @@
+import math
 import random
 
 #1f
@@ -20,5 +21,8 @@ while szam!="":
     szam=int(input("írj be egy számot: "))
 
 #4f
+atmero=input("Írd be a kör átmérőjét: ")
+print("Kerülete: ", atmero*math.pi)
+print("Területe: ",(atmero/2)**2*math.pi)
 
 #5f
